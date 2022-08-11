@@ -138,6 +138,7 @@ TO DO LIST:
 // react project fuck me
 
 // what happens if rng returns the video output?
+/*
 function RNG() {
 const [wishRNG, setWishRNG] = useState(0)
 const yolorng = Math.floor(Math.random() * 1001); // returns random integer between 0 and 1000
@@ -148,11 +149,16 @@ return (
 
 );
 }
+*/
 
 export default function App() {
   const [globalstate, setGlobalState] = useState(0)
   const [wishRNG, setWishRNG] = useState(0)
   const yolorng = Math.floor(Math.random() * 1001); // returns random integer between 0 and 1000
+
+// what happens if setWishRNG(yolorng)
+  // that would theoretically set wishRNG's state = yolorng
+  // thus we could do if statements involving wishRNG
 
   if (globalstate === 0) {
   return (
@@ -165,14 +171,17 @@ export default function App() {
     width: "100vw",
     height: "100vh",
     backgroundRepeat: "no-repeat",
-    backgorundSize: "cover",
+    backgroundSize: "cover",
+
     }}>
     <div style={{
     display: "flex",
     justifyContent: "center",
     alignItems: "center",
     }}>
-    <button onClick={()=> setGlobalState(globalstate + 1)} style={{
+    <button onClick={()=> setGlobalState(globalstate + 1)}
+
+    style={{
       width:"100px",
       height:"100px",
     }}> Go to Simulator</button>
@@ -194,12 +203,12 @@ return (
   <Navbar/>
   <Banner/>
   <Footer/>
-  <button onClick={()=> setGlobalState(globalstate + 1 )}>
+    <button onClick={()=> setGlobalState(globalstate + 1)}>
  test wish 
   </button>
   </div>
 );
-} else if (globalstate === 2) {
+  } else if (globalstate === 2) {
   return(
     <video autoPlay onEnded={()=> setGlobalState(globalstate === 1)} style={{
     position: "fixed",
