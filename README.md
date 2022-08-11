@@ -20,4 +20,8 @@ TO DO LIST:
 - 84 - 1% 5 star
 - 85 - back to 0.6%
 - 90 - 100% 5 star
-2. 
+2. Add video wish background
+3. Adjust CSS styling to look realistic
+4. Assign states to currency and have those states correlate with the global website state
+5. Add state that forces requirement of currencies
+6. Add alternative wishes for single wish and 10-pull wish(3 star, 4 star and 5 star) and have its relative probabilities align with the count ((fuck me))
