@@ -8,6 +8,7 @@ import Banner from './components/Banner';
 import Footer from './components/Footer';
 import Loading from './components/Loading';
 import fourstarsinglewish from './assets/wishes/4star-single.mp4';
+import wishMusic from './assets/wishMusic.mp3';
 
 /*
 import React, { useEffect } from 'react';
@@ -160,6 +161,21 @@ export default function App() {
   // that would theoretically set wishRNG's state = yolorng
   // thus we could do if statements involving wishRNG
 
+const audioRef = React.createRef();
+const handleKeydown = (event) => {
+  if (event.repeat) {
+    return;
+}
+  audioRef.current.play();
+}
+
+useEffect(() => {
+  document.addEventListener("mousedown", (event) => handleKeydown(event));
+  return () => {
+  }
+  })
+
+
   if (globalstate === 0) {
   return (
     <div>
@@ -200,6 +216,7 @@ return (
     backgroundRepeat: "no-repeat",
     backgroundSize: "cover",
   }}>
+  <audio src={wishMusic} ref={audioRef}/>
   <Navbar/>
   <Banner/>
   <Footer/>
