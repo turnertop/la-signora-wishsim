@@ -3,7 +3,7 @@ import '../App.css';
 import cewStar from '../assets/cewStar.png';
 import primogem from '../assets/primogem.webp';
 import acquaint from '../assets/acquaint-fate.webp';
-import placeholder from '../assets/zerotwo.png';
+import placeholder from '../assets/placeholder.png';
 
 function Navbar() {
   return (
