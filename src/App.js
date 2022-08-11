@@ -9,6 +9,7 @@ import Footer from './components/Footer';
 import Loading from './components/Loading';
 import fourstarsinglewish from './assets/wishes/4star-single.mp4';
 import wishMusic from './assets/wishMusic.mp3';
+import wishButton from './assets/button.webp';
 
 /*
 import React, { useEffect } from 'react';
@@ -221,7 +222,8 @@ return (
   <Banner/>
   <Footer/>
     <button onClick={()=> setGlobalState(globalstate + 1)}>
- test wish 
+    <img src={wishButton}/>
+    TEST WISH
   </button>
   </div>
 );
