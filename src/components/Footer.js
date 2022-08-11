@@ -20,17 +20,93 @@ export default function Footer() {
   width: "20px",
   height: "20px",
   }}/>
-    0
+    <span style={{
+      color: "#fff",
+    }}>0</span>
   <img src={stardust} id="masterless stardust" alt="masterless stardust" style={{
   width: "20px",
   height: "20px",
   }}/>
-    0 
+    <span style={{
+    color: "#fff",
+    }}>0</span> 
   </div>
   <div id="footer-left-side-buttons">
-    <button>Shop</button>
-    <button>Inventory</button>
-    <button>History</button>
+    <button style={{
+      border: "solid transparent",
+      fontSize: "100%",
+      margin: "2px 5px",
+      padding: "0.19rem 1.3rem",
+      transition: "all .2s",
+      boxShadow: "0 2px 2px #64646430",
+      backgroundColor: "#e0ddd4",
+      borderRadius: "50px",
+      outline: "0",
+      letterSpacing: "-.03rem",
+      boxSizing: "border-box",
+      appearance: "auto",
+      writingMode: "horizontal-tb !important",
+      textRendering: "auto",
+      color: "buttontext",
+      wordSpacing: "normal",
+      lineHeight: "normal",
+      textTransform: "none",
+      textIndent: "0px",
+      textShadow: "none",
+      display: "inline-block",
+      textAlign: "center",
+      alignItems: "flex-start",
+    }}>Shop</button>
+    <button style={{
+      border: "solid transparent",
+      fontSize: "100%",
+      margin: "2px 5px",
+      padding: "0.19rem 1.3rem",
+      transition: "all .2s",
+      boxShadow: "0 2px 2px #64646430",
+      backgroundColor: "#e0ddd4",
+      borderRadius: "50px",
+      outline: "0",
+      letterSpacing: "-.03rem",
+      boxSizing: "border-box",
+      appearance: "auto",
+      writingMode: "horizontal-tb !important",
+      textRendering: "auto",
+      color: "buttontext",
+      wordSpacing: "normal",
+      lineHeight: "normal",
+      textTransform: "none",
+      textIndent: "0px",
+      textShadow: "none",
+      display: "inline-block",
+      textAlign: "center",
+      alignItems: "flex-start",
+    }}>Inventory</button>
+    <button style={{
+      border: "solid transparent",
+      fontSize: "100%",
+      margin: "2px 5px",
+      padding: "0.19rem 1.3rem",
+      transition: "all .2s",
+      boxShadow: "0 2px 2px #64646430",
+      backgroundColor: "#e0ddd4",
+      borderRadius: "50px",
+      outline: "0",
+      letterSpacing: "-.03rem",
+      boxSizing: "border-box",
+      appearance: "auto",
+      writingMode: "horizontal-tb !important",
+      textRendering: "auto",
+      color: "buttontext",
+      wordSpacing: "normal",
+      lineHeight: "normal",
+      textTransform: "none",
+      textIndent: "0px",
+      textShadow: "none",
+      display: "inline-block",
+      textAlign: "center",
+      alignItems: "flex-start",
+    }}>History</button>
   </div>
   </div>
 
