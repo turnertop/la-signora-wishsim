@@ -1,13 +1,12 @@
 import React from 'react';
-import { useState } from 'react';
 import './App.css';
-
+import { TestExport } from './components';
 
 function App() {
 
   return (
     <div className="App">
-
+      <TestExport />
     </div>
   )
 }
