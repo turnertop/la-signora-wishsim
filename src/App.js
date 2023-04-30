@@ -180,6 +180,7 @@ useEffect(() => {
   if (globalstate === 0) {
   return (
     <div>
+    
       {console.log({yolorng})}
     <Loading/>
     <div style={{
