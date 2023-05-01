@@ -3,7 +3,7 @@ import GachaBanner from './GachaBanner.jsx';
 import laSignora from '../assets/SignoraBanner.png';
 import { useState, useEffect } from 'react';
 
-const BannerData = [
+const bannerData = [
   {
     id: 1,
     imageSrc: laSignora,
@@ -31,7 +31,7 @@ const GachaBannerContainer = () => {
   return (
 
     <div>
-      <GachaBanner imageSrc={imageSrc} title={title} description={description} />
+      <GachaBanner imageSrc={imageSrc} title={title} className="z-1" />
       <button onClick={handleNextBannerClick}>Next Banner</button>
     </div>
   ); 
