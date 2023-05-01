@@ -30,8 +30,8 @@ const GachaBannerContainer = () => {
 
   return (
 
-    <div>
-      <GachaBanner imageSrc={imageSrc} title={title} className="z-1" />
+    <div className="relative">
+      <GachaBanner imageSrc={imageSrc} title={title} />
       <button onClick={handleNextBannerClick}>Next Banner</button>
     </div>
   ); 
