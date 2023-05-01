@@ -1,17 +1,15 @@
 import React from 'react';
 
-export default function GachaBanner() {
+const GachaBanner = (imageSrc) => {
   return (
-    <div>
+    <div className="relative">
+      <img src={imageSrc} alt={title} className="w-full" />
 
     </div>
-
-
-
 
   );
 };
 
-
+export default GachaBanner;
 
 
