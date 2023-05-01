@@ -1,12 +1,12 @@
 import React from 'react';
 import './App.css';
-import { TestExport } from './components';
+import { TestExport, VideoBackground } from './components';
 
 function App() {
 
   return (
-    <div className="App">
-      <TestExport />
+    <div className="w-screen h-screen">
+      <VideoBackground />
     </div>
   )
 }
