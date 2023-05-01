@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import { TestExport, VideoBackground, GachaBanner, GachaBannerContainer, BackgroundMusic } from './components';
+import { TestExport, VideoBackground, GachaBanner, GachaBannerContainer, BackgroundMusic, WishButton } from './components';
 
 function App() {
 
@@ -9,6 +9,7 @@ function App() {
       <VideoBackground />
       <BackgroundMusic />
       <GachaBannerContainer />
+      <WishButton />
     </div>
   )
 }
